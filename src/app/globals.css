@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-ivory: #F7F2E9;
+  --color-earth: #493126;
+  --color-terracotta: #A75D3B;
+  --color-gold: #B69760;
+  --color-beige: #E9DDCC;
+  --color-charcoal: #24211F;
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans), 'Inter', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: #B69760;
+  color: #F7F2E9;
+}
+
+/* Custom Artisan Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F2E9;
+}
+::-webkit-scrollbar-thumb {
+  background: #B69760;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A75D3B;
+}
+
+/* Subtle decorative grain texture overlay */
+.artisan-texture {
+  background-color: #F7F2E9;
+  background-image: radial-gradient(rgba(182, 151, 96, 0.15) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out forwards;
+}
