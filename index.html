@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ipsita Producer Group | Our Tradition. Our Pride. | Dhenkanal, Odisha</title>
+  <meta name="description" content="Official product catalogue of Ipsita Producer Group from Dhenkanal, Odisha. Handcrafted tribal necklaces, brass & metal handicrafts, framed tribal art, and souvenir pieces under the Subhadra Shakti initiative. Udyam: UDYAM-OD-09-0050793.">
+  <link rel="icon" href="public/images/ipsita_logo.png" type="image/png">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* CSS Variables & Artisan Palette */
+    :root {
+      --ivory: #F7F2E9;
+      --ivory-50: #FCFAF6;
+      --ivory-200: #EFE6D6;
+      --earth: #493126;
+      --earth-light: #5E4032;
+      --earth-dark: #352219;
+      --terracotta: #A75D3B;
+      --terracotta-light: #BD7351;
+      --gold: #B69760;
+      --gold-light: #C9AD78;
+      --beige: #E9DDCC;
+      --charcoal: #24211F;
+      --charcoal-light: #3A3633;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--ivory);
+      color: var(--charcoal);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4, .font-serif {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .container {
+      max-width: 1240px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .tribal-border {
+      background: repeating-linear-gradient(45deg, var(--gold), var(--gold) 6px, var(--earth) 6px, var(--earth) 12px);
+      height: 6px;
+      width: 100%;
+      opacity: 0.85;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: 1px solid transparent;
+      text-align: center;
+    }
+
+    .btn-primary {
+      background-color: var(--terracotta);
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(167, 93, 59, 0.25);
+    }
+    .btn-primary:hover {
+      background-color: var(--terracotta-light);
+      transform: translateY(-1px);
+    }
+
+    .btn-earth {
+      background-color: var(--earth);
+      color: var(--ivory);
+      border-color: rgba(182, 151, 96, 0.4);
+    }
+    .btn-earth:hover {
+      background-color: var(--earth-light);
+    }
+
+    .btn-whatsapp {
+      background-color: #25D366;
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(37, 211, 102, 0.25);
+    }
+    .btn-whatsapp:hover {
+      background-color: #1EBE5D;
+      transform: translateY(-1px);
+    }
+
+    .btn-outline {
+      background-color: transparent;
+      color: var(--earth);
+      border-color: rgba(73, 49, 38, 0.3);
+    }
+    .btn-outline:hover {
+      background-color: var(--earth);
+      color: var(--ivory);
+    }
+
+    .btn-sm {
+      padding: 8px 14px;
+      font-size: 12px;
+      border-radius: 8px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .badge-gold {
+      background-color: rgba(182, 151, 96, 0.18);
+      color: var(--gold);
+      border: 1px solid rgba(182, 151, 96, 0.4);
+    }
+
+    .badge-light {
+      background-color: var(--ivory);
+      color: var(--earth);
+      border: 1px solid var(--beige);
+    }
+
+    .artisan-card {
+      background: #ffffff;
+      border: 1px solid var(--beige);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(73, 49, 38, 0.06);
+      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .artisan-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(73, 49, 38, 0.12);
+      border-color: var(--gold);
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(247, 242, 233, 0.96);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--beige);
+    }
+
+    .top-bar {
+      background-color: var(--earth);
+      color: var(--ivory);
+      font-size: 11px;
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(182, 151, 96, 0.3);
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 20px;
+    }
+
+    .brand-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: 2px solid var(--gold);
+      background: #ffffff;
+      padding: 2px;
+      object-fit: contain;
+    }
+
+    .brand-title {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--earth);
+      letter-spacing: -0.01em;
+      line-height: 1.1;
+    }
+
+    .brand-tagline {
+      font-size: 12px;
+      color: var(--terracotta);
+      font-style: italic;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--charcoal);
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--terracotta);
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .hero-section {
+      background-color: var(--earth);
+      color: var(--ivory);
+      padding: 70px 0 80px 0;
+      position: relative;
+      border-bottom: 2px solid var(--gold);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .hero-heading {
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 1.05;
+      margin: 14px 0;
+      color: var(--ivory);
+    }
+
+    .hero-banner-frame {
+      border: 2px solid var(--gold);
+      border-radius: 16px;
+      overflow: hidden;
+      background: #ffffff;
+      padding: 8px;
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero-banner-frame img {
+      border-radius: 10px;
+      width: 100%;
+    }
+
+    .filter-bar {
+      background: #ffffff;
+      border: 1px solid var(--beige);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 36px;
+      box-shadow: 0 4px 16px rgba(73, 49, 38, 0.04);
+    }
+
+    .search-input {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1px solid var(--beige);
+      border-radius: 10px;
+      font-size: 14px;
+      background: var(--ivory-50);
+      color: var(--charcoal);
+      outline: none;
+      transition: border-color 0.2s ease;
+    }
+
+    .search-input:focus {
+      border-color: var(--gold);
+    }
+
+    .category-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .cat-btn {
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid var(--beige);
+      background: var(--ivory);
+      color: var(--charcoal);
+      transition: all 0.2s ease;
+    }
+
+    .cat-btn.active, .cat-btn:hover {
+      background: var(--earth);
+      color: var(--ivory);
+      border-color: var(--earth);
+    }
+
+    .card-img-wrap {
+      position: relative;
+      aspect-ratio: 4/3;
+      overflow: hidden;
+      background: var(--ivory-200);
+    }
+
+    .card-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .artisan-card:hover .card-img-wrap img {
+      transform: scale(1.05);
+    }
+
+    .card-content {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .card-title {
+      font-size: 19px;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin: 4px 0 8px 0;
+      line-height: 1.25;
+    }
+
+    .card-desc {
+      font-size: 12px;
+      color: rgba(36, 33, 31, 0.75);
+      line-height: 1.5;
+      margin-bottom: 14px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .mat-chip {
+      font-size: 10px;
+      padding: 3px 8px;
+      background: var(--ivory);
+      border: 1px solid var(--beige);
+      border-radius: 4px;
+      color: var(--earth-light);
+      display: inline-block;
+      margin-right: 4px;
+      margin-bottom: 4px;
+    }
+
+    .card-price-notice {
+      border-top: 1px solid var(--beige);
+      padding-top: 10px;
+      margin-top: auto;
+      margin-bottom: 14px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--terracotta);
+    }
+
+    .card-actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.65);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal-box {
+      background: #ffffff;
+      max-width: 760px;
+      width: 100%;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+      max-height: 90vh;
+      overflow-y: auto;
+      border: 2px solid var(--gold);
+      position: relative;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(0,0,0,0.6);
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      line-height: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+    }
+
+    .floating-wa {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      background: #25D366;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+      z-index: 99;
+      transition: transform 0.2s ease;
+    }
+
+    .floating-wa:hover {
+      transform: scale(1.1);
+      background: #1EBE5D;
+    }
+
+    footer {
+      background-color: var(--earth);
+      color: var(--ivory);
+      padding: 60px 0 30px 0;
+      border-top: 2px solid var(--gold);
+    }
+
+    @media (max-width: 992px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .grid-3 { grid-template-columns: repeat(2, 1fr); }
+      .grid-4 { grid-template-columns: repeat(2, 1fr); }
+      .hero-heading { font-size: 42px; }
+    }
+
+    @media (max-width: 640px) {
+      .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+      .hero-heading { font-size: 34px; }
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Heritage Notice Bar -->
+  <div class="top-bar">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+      <div>
+        <span style="color: var(--gold); font-weight: 600;">✦ Subhadra Shakti Initiative</span>
+        <span style="opacity: 0.6; margin: 0 6px;">•</span>
+        <span>Govt. of Odisha</span>
+        <span style="opacity: 0.6; margin: 0 6px;">•</span>
+        <span>Udyam: <strong>UDYAM-OD-09-0050793</strong></span>
+      </div>
+      <div>
+        <span>📍 Dhenkanal, Odisha</span>
+        <span style="opacity: 0.6; margin: 0 8px;">•</span>
+        <a href="tel:+917751890401" style="color: var(--gold); font-weight: 600;">📞 +91 77518 90401</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation -->
+  <header>
+    <div class="container nav-container">
+      <a href="#home" class="brand-link">
+        <img src="public/images/ipsita_logo.png" alt="Ipsita Producer Group Logo" class="brand-logo" onerror="this.src='images/ipsita_logo.png'">
+        <div>
+          <div class="brand-title font-serif">Ipsita Producer Group</div>
+          <div class="brand-tagline font-serif">Our Tradition. Our Pride.</div>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#collections">Catalogue</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#stall">Exhibition Stall</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div style="display: flex; gap: 10px; align-items: center;">
+        <a href="https://wa.me/917751890401?text=Namaste%20Ipsita%20Producer%20Group,%20I%20would%20like%20to%20enquire%20about%20your%20handicrafts%20catalogue." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">
+          WhatsApp
+        </a>
+        <a href="tel:+917751890401" class="btn btn-earth btn-sm">
+          Call Artisan
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. HERO SECTION -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px;">
+            <span class="badge badge-gold">Subhadra Shakti Partner</span>
+            <span class="badge" style="background: rgba(255,255,255,0.12); color: #fff;">Dhenkanal, Odisha</span>
+          </div>
+          <p style="text-transform: uppercase; letter-spacing: 0.2em; font-size: 13px; color: var(--gold); font-weight: 600;">
+            Tribal Jewellery &amp; Handicrafts
+          </p>
+          <h1 class="hero-heading font-serif">
+            Our Tradition.<br>
+            <span style="color: var(--gold); font-style: italic; font-weight: 400;">Our Pride.</span>
+          </h1>
+          <p style="font-size: 16px; opacity: 0.85; max-width: 540px; margin-bottom: 24px;">
+            Authentic tribal necklaces, lost-wax brass casting, and framed folk art handcrafted by rural women artisans of Dhenkanal under the Odisha Government&apos;s Subhadra Shakti initiative.
+          </p>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="#collections" class="btn btn-primary">
+              Explore 4 Collections ↓
+            </a>
+            <a href="https://wa.me/917751890401?text=Namaste%20Ipsita%20Producer%20Group,%20I%20would%20like%20to%20enquire%20about%20your%20products." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+              Enquire on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <div class="hero-banner-frame">
+            <img src="public/images/ipsita_brand_banner.png" alt="Ipsita Producer Group Official Brand Banner" onerror="this.src='images/ipsita_brand_banner.png'">
+            <div style="text-align: center; padding: 10px; background: var(--ivory); margin-top: 6px; border-radius: 8px;">
+              <strong style="color: var(--earth); font-size: 14px;">Ipsita Producer Group</strong>
+              <div style="font-size: 11px; color: var(--terracotta);">Vill-Adipura, Dist-Dhenkanal, Odisha • Udyam: UDYAM-OD-09-0050793</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="tribal-border"></div>
+
+  <!-- 2. ENTERPRISE INTRODUCTION & 4 STALL OBJECTIVES -->
+  <section style="padding: 70px 0; background: var(--ivory);">
+    <div class="container">
+      <div style="text-align: center; max-width: 700px; margin: 0 auto 50px auto;">
+        <span style="text-transform: uppercase; letter-spacing: 0.25em; font-size: 12px; font-weight: 600; color: var(--terracotta);">
+          Artisan Enterprise
+        </span>
+        <h2 class="font-serif" style="font-size: 38px; color: var(--charcoal); margin: 6px 0 12px 0;">
+          Carrying Forward Odisha&apos;s Craft Legacy
+        </h2>
+        <div style="width: 60px; height: 2px; background: var(--gold); margin: 0 auto 16px auto;"></div>
+        <p style="font-size: 15px; color: rgba(36, 33, 31, 0.8);">
+          Ipsita Producer Group is an Odisha-based producer group creating tribal jewellery and handicrafts, carrying forward traditional craft skills of the region. Operating under the Odisha Government&apos;s <strong>Subhadra Shakti initiative</strong> and registered under <strong>Udyam (UDYAM-OD-09-0050793)</strong>.
+        </p>
+      </div>
+
+      <div class="grid-4">
+        <div class="artisan-card" style="padding: 24px; text-align: center;">
+          <div style="width: 44px; height: 44px; border-radius: 50%; background: var(--ivory-200); color: var(--terracotta); display: flex; align-items: center; justify-content: center; margin: 0 auto 14px auto; font-weight: 700;">01</div>
+          <h3 class="font-serif" style="font-size: 20px; color: var(--earth); margin-bottom: 8px;">Showcase</h3>
+          <p style="font-size: 13px; color: rgba(36, 33, 31, 0.75);">Present authentic tribal craftsmanship in a rich, well-organised display.</p>
+        </div>
+
+        <div class="artisan-card" style="padding: 24px; text-align: center;">
+          <div style="width: 44px; height: 44px; border-radius: 50%; background: var(--ivory-200); color: var(--terracotta); display: flex; align-items: center; justify-content: center; margin: 0 auto 14px auto; font-weight: 700;">02</div>
+          <h3 class="font-serif" style="font-size: 20px; color: var(--earth); margin-bottom: 8px;">Sell</h3>
+          <p style="font-size: 13px; color: rgba(36, 33, 31, 0.75);">Offer jewellery, decor and gifts across a fair and transparent range of price points.</p>
+        </div>
+
+        <div class="artisan-card" style="padding: 24px; text-align: center;">
+          <div style="width: 44px; height: 44px; border-radius: 50%; background: var(--ivory-200); color: var(--terracotta); display: flex; align-items: center; justify-content: center; margin: 0 auto 14px auto; font-weight: 700;">03</div>
+          <h3 class="font-serif" style="font-size: 20px; color: var(--earth); margin-bottom: 8px;">Preserve Heritage</h3>
+          <p style="font-size: 13px; color: rgba(36, 33, 31, 0.75);">Share the authentic story and traditional technique behind each handmade piece.</p>
+        </div>
+
+        <div class="artisan-card" style="padding: 24px; text-align: center;">
+          <div style="width: 44px; height: 44px; border-radius: 50%; background: var(--ivory-200); color: var(--terracotta); display: flex; align-items: center; justify-content: center; margin: 0 auto 14px auto; font-weight: 700;">04</div>
+          <h3 class="font-serif" style="font-size: 20px; color: var(--earth); margin-bottom: 8px;">Connect</h3>
+          <p style="font-size: 13px; color: rgba(36, 33, 31, 0.75);">Build direct buyer interest, repeat enquiries, and custom artisan commissions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. FOUR CORE PRD CATEGORIES -->
+  <section style="padding: 70px 0; background: var(--ivory-200); border-top: 1px solid var(--beige); border-bottom: 1px solid var(--beige);">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 40px;">
+        <span style="text-transform: uppercase; letter-spacing: 0.25em; font-size: 12px; font-weight: 600; color: var(--terracotta);">
+          Official Exhibition Categories
+        </span>
+        <h2 class="font-serif" style="font-size: 38px; color: var(--charcoal); margin-top: 6px;">
+          Explore Product Collections
+        </h2>
+      </div>
+
+      <div class="grid-4">
+        <!-- Cat 1 -->
+        <div class="artisan-card" onclick="filterCategory('tribal-jewellery')" style="cursor: pointer;">
+          <div class="card-img-wrap">
+            <img src="public/images/crop_tribal_necklaces.png" alt="Tribal Necklaces & Jewellery" onerror="this.src='images/crop_tribal_necklaces.png'">
+          </div>
+          <div style="padding: 18px;">
+            <h3 class="font-serif" style="font-size: 18px; color: var(--earth); margin-bottom: 6px;">1. Tribal Necklaces &amp; Jewellery</h3>
+            <p style="font-size: 12px; color: rgba(36,33,31,0.75); line-height: 1.4;">Beaded, metal and pendant necklaces in traditional tribal designs, displayed on hanging lines.</p>
+            <div style="color: var(--terracotta); font-size: 12px; font-weight: 600; margin-top: 10px;">Filter Category →</div>
+          </div>
+        </div>
+
+        <!-- Cat 2 -->
+        <div class="artisan-card" onclick="filterCategory('brass-metal-handicrafts')" style="cursor: pointer;">
+          <div class="card-img-wrap">
+            <img src="public/images/crop_brass_handicrafts.png" alt="Brass & Metal Handicrafts" onerror="this.src='images/crop_brass_handicrafts.png'">
+          </div>
+          <div style="padding: 18px;">
+            <h3 class="font-serif" style="font-size: 18px; color: var(--earth); margin-bottom: 6px;">2. Brass &amp; Metal Handicrafts</h3>
+            <p style="font-size: 12px; color: rgba(36,33,31,0.75); line-height: 1.4;">Handcrafted figurines, lamps, bells, kalash and decorative pieces in brass and metal.</p>
+            <div style="color: var(--terracotta); font-size: 12px; font-weight: 600; margin-top: 10px;">Filter Category →</div>
+          </div>
+        </div>
+
+        <!-- Cat 3 -->
+        <div class="artisan-card" onclick="filterCategory('framed-tribal-art')" style="cursor: pointer;">
+          <div class="card-img-wrap">
+            <img src="public/images/crop_framed_art.png" alt="Framed Tribal Art & Wall Decor" onerror="this.src='images/crop_framed_art.png'">
+          </div>
+          <div style="padding: 18px;">
+            <h3 class="font-serif" style="font-size: 18px; color: var(--earth); margin-bottom: 6px;">3. Framed Tribal Art &amp; Wall Décor</h3>
+            <p style="font-size: 12px; color: rgba(36,33,31,0.75); line-height: 1.4;">Framed folk and tribal artworks, clocks and wall panels in a range of sizes with clear glass.</p>
+            <div style="color: var(--terracotta); font-size: 12px; font-weight: 600; margin-top: 10px;">Filter Category →</div>
+          </div>
+        </div>
+
+        <!-- Cat 4 -->
+        <div class="artisan-card" onclick="filterCategory('gifting-souvenirs')" style="cursor: pointer;">
+          <div class="card-img-wrap">
+            <img src="public/images/crop_gifting_souvenirs.png" alt="Gifting & Souvenir Pieces" onerror="this.src='images/crop_gifting_souvenirs.png'">
+          </div>
+          <div style="padding: 18px;">
+            <h3 class="font-serif" style="font-size: 18px; color: var(--earth); margin-bottom: 6px;">4. Gifting &amp; Souvenir Pieces</h3>
+            <p style="font-size: 12px; color: rgba(36,33,31,0.75); line-height: 1.4;">Small ornaments, pendants and keepsakes suitable for gifting and travel souvenirs.</p>
+            <div style="color: var(--terracotta); font-size: 12px; font-weight: 600; margin-top: 10px;">Filter Category →</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. INTERACTIVE CATALOGUE & PRODUCT GRID -->
+  <section id="collections" style="padding: 70px 0; background: var(--ivory);">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 30px;">
+        <span style="text-transform: uppercase; letter-spacing: 0.25em; font-size: 12px; font-weight: 600; color: var(--terracotta);">
+          Complete Product Showcase
+        </span>
+        <h2 class="font-serif" style="font-size: 38px; color: var(--charcoal); margin-top: 6px;">
+          Product Catalogue
+        </h2>
+        <p style="font-size: 14px; color: rgba(36,33,31,0.75); max-width: 600px; margin: 8px auto 0 auto;">
+          Items are handmade, so each piece is unique. Search by keyword or filter by our four traditional exhibition categories.
+        </p>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="filter-bar">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search by name, brass, necklace, frame, souvenir..." oninput="handleSearch()">
+        <div class="category-pills">
+          <button class="cat-btn active" onclick="filterCategory('all', this)">All Pieces</button>
+          <button class="cat-btn" onclick="filterCategory('tribal-jewellery', this)">Tribal Jewellery</button>
+          <button class="cat-btn" onclick="filterCategory('brass-metal-handicrafts', this)">Brass Handicrafts</button>
+          <button class="cat-btn" onclick="filterCategory('framed-tribal-art', this)">Framed Tribal Art</button>
+          <button class="cat-btn" onclick="filterCategory('gifting-souvenirs', this)">Gifting &amp; Souvenirs</button>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="grid-3" id="productsGrid">
+        <!-- Products populated dynamically by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. AUTHENTIC STALL EXHIBITION SECTION -->
+  <section id="stall" style="padding: 80px 0; background: var(--earth); color: var(--ivory); border-top: 2px solid var(--gold); border-bottom: 2px solid var(--gold);">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <div style="border: 2px solid var(--gold); border-radius: 16px; overflow: hidden; box-shadow: 0 16px 36px rgba(0,0,0,0.4);">
+            <img src="public/images/ipsita_stall_exhibition.png" alt="Ipsita Producer Group's stall at a previous handicraft exhibition" style="width: 100%;" onerror="this.src='images/ipsita_stall_exhibition.png'">
+            <div style="padding: 12px 16px; background: rgba(0,0,0,0.5); font-size: 12px; color: var(--gold); display: flex; justify-content: space-between;">
+              <span>Ipsita Producer Group&apos;s stall at a previous handicraft exhibition</span>
+              <span style="opacity: 0.8;">Dhenkanal, Odisha</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <span class="badge badge-gold" style="margin-bottom: 12px;">Stall PRD Architecture</span>
+          <h2 class="font-serif" style="font-size: 38px; color: var(--ivory); line-height: 1.15; margin: 10px 0 16px 0;">
+            Authentic Exhibition Display Approach
+          </h2>
+          <p style="font-size: 14px; opacity: 0.85; line-height: 1.6; margin-bottom: 20px;">
+            As documented in our PRD, jewellery is hung on racks behind the stall so it is visible at eye level, while framed art and brass handicrafts are arranged on presentation tables with clear price cards. Dual-side lighting keeps the metalwork and natural pigments bright and vibrant.
+          </p>
+
+          <div style="background: rgba(0,0,0,0.3); border: 1px solid rgba(182,151,96,0.3); border-radius: 12px; padding: 18px; margin-bottom: 20px;">
+            <h4 class="font-serif" style="color: var(--gold); font-size: 18px; margin-bottom: 8px;">Three Operational Roles (PRD Section 6)</h4>
+            <div style="font-size: 13px; opacity: 0.85; line-height: 1.6;">
+              <p>• <strong>Role 1: Customer Engagement</strong> — Welcoming visitors, explaining the craft technique, and sharing heritage stories.</p>
+              <p>• <strong>Role 2: Sales &amp; Payments</strong> — Handling enquiries, managing UPI payments, and careful packing.</p>
+              <p>• <strong>Role 3: Display &amp; Inventory</strong> — Maintaining eye-level racks, presentation tables, and inventory counts.</p>
+            </div>
+          </div>
+
+          <a href="https://wa.me/917751890401?text=Namaste%20Ipsita%20Producer%20Group,%20I%20am%20interested%20in%20your%20exhibition%20stall%20showcase." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+            Enquire for Trade Fair Booking
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. OUR STORY & ROOTS -->
+  <section id="story" style="padding: 70px 0; background: var(--ivory);">
+    <div class="container">
+      <div style="text-align: center; max-width: 700px; margin: 0 auto 40px auto;">
+        <span style="text-transform: uppercase; letter-spacing: 0.25em; font-size: 12px; font-weight: 600; color: var(--terracotta);">
+          Dhenkanal Heritage
+        </span>
+        <h2 class="font-serif" style="font-size: 38px; color: var(--charcoal); margin: 6px 0;">
+          Our Story &amp; Craft Origins
+        </h2>
+        <div style="width: 60px; height: 2px; background: var(--gold); margin: 0 auto 16px auto;"></div>
+      </div>
+
+      <div class="grid-2" style="align-items: center;">
+        <div>
+          <h3 class="font-serif" style="font-size: 26px; color: var(--earth); margin-bottom: 12px;">Rooted in Rural Odisha</h3>
+          <p style="font-size: 14px; color: rgba(36,33,31,0.8); line-height: 1.7; margin-bottom: 16px;">
+            Based in <strong>Vill-Adipura, Dhenkanal</strong>, Ipsita Producer Group unites traditional women artisans dedicated to preserving Odisha&apos;s rich tribal art and lost-wax metal craft. 
+          </p>
+          <p style="font-size: 14px; color: rgba(36,33,31,0.8); line-height: 1.7; margin-bottom: 16px;">
+            Working under the Odisha Government&apos;s <strong>Subhadra Shakti initiative</strong> and registered under <strong>Udyam (UDYAM-OD-09-0050793)</strong>, the enterprise bridges indigenous artisans with cultural exhibitions like the AKAMA College Trade Fair, empowering artisans through fair trade and direct connection.
+          </p>
+          <div style="background: #ffffff; border: 1px solid var(--beige); border-radius: 12px; padding: 16px; font-size: 13px;">
+            <p><strong>Official Address:</strong> Vill-Adipura, Po-Marthapur, Ps-Bhuban, Via-Kamakhyanagar, Dist-Dhenkanal, State-Odisha, PIN 759023</p>
+            <p style="margin-top: 6px;"><strong>Registered Phone:</strong> <a href="tel:+917751890401" style="color: var(--terracotta); font-weight: 600;">+91 77518 90401</a></p>
+          </div>
+        </div>
+
+        <div>
+          <div class="artisan-card" style="padding: 28px; border: 2px solid var(--gold);">
+            <h4 class="font-serif" style="font-size: 22px; color: var(--earth); margin-bottom: 12px; text-align: center;">Enterprise Highlights</h4>
+            <ul style="list-style: none; font-size: 13px; color: rgba(36,33,31,0.8); line-height: 1.8;">
+              <li>✓ <strong>100% Handcrafted:</strong> Every necklace, brass figurine, and painting is unique.</li>
+              <li>✓ <strong>Subhadra Shakti Partner:</strong> Empowering women artisans across Dhenkanal.</li>
+              <li>✓ <strong>Verified Udyam Registration:</strong> UDYAM-OD-09-0050793.</li>
+              <li>✓ <strong>Direct Connection:</strong> No middle agents, direct artisan engagement.</li>
+              <li>✓ <strong>Authentic Photography:</strong> All catalogue pictures are from real exhibition stalls.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. CONTACT & ENQUIRY SECTION -->
+  <section id="contact" style="padding: 70px 0; background: var(--ivory-200); border-top: 1px solid var(--beige);">
+    <div class="container">
+      <div style="text-align: center; max-width: 600px; margin: 0 auto 40px auto;">
+        <span style="text-transform: uppercase; letter-spacing: 0.25em; font-size: 12px; font-weight: 600; color: var(--terracotta);">
+          Direct Artisan Contact
+        </span>
+        <h2 class="font-serif" style="font-size: 38px; color: var(--charcoal); margin: 6px 0;">
+          Contact &amp; Stall Enquiries
+        </h2>
+        <p style="font-size: 14px; color: rgba(36,33,31,0.75);">
+          Connect directly with Ipsita Producer Group via phone or pre-filled WhatsApp message.
+        </p>
+      </div>
+
+      <div class="grid-2">
+        <!-- Contact Info Card -->
+        <div class="artisan-card" style="padding: 30px;">
+          <h3 class="font-serif" style="font-size: 24px; color: var(--earth); margin-bottom: 16px;">Verified Contact Details</h3>
+          
+          <div style="margin-bottom: 20px;">
+            <div style="font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--terracotta); font-weight: 600;">Official Phone / WhatsApp</div>
+            <a href="tel:+917751890401" style="font-size: 20px; font-weight: 700; color: var(--earth); display: block; margin-top: 4px;">
+              +91 77518 90401
+            </a>
+            <p style="font-size: 12px; color: rgba(36,33,31,0.6); margin-top: 2px;">Direct line for calls and WhatsApp messages.</p>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <div style="font-size: 12px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--terracotta); font-weight: 600;">Registered Village Address</div>
+            <div style="font-size: 13px; color: var(--charcoal); margin-top: 4px; line-height: 1.6;">
+              <p><strong>Vill-Adipura</strong>, Po-Marthapur, Ps-Bhuban</p>
+              <p>Via-Kamakhyanagar, Dist-Dhenkanal</p>
+              <p>State-Odisha, PIN <strong>759023</strong></p>
+            </div>
+          </div>
+
+          <div style="padding: 14px; background: var(--ivory); border-radius: 10px; font-size: 12px; color: rgba(36,33,31,0.8); line-height: 1.6;">
+            <p><strong>Udyam No:</strong> <span style="font-family: monospace;">UDYAM-OD-09-0050793</span></p>
+            <p><strong>Initiative:</strong> Subhadra Shakti Initiative, Govt. of Odisha</p>
+          </div>
+
+          <div style="margin-top: 24px; display: flex; gap: 10px;">
+            <a href="https://wa.me/917751890401?text=Namaste%20Ipsita%20Producer%20Group,%20I%20would%20like%20to%20enquire%20about%20your%20catalogue." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="flex: 1;">
+              Chat on WhatsApp
+            </a>
+            <a href="tel:+917751890401" class="btn btn-earth" style="flex: 1;">
+              Call Direct
+            </a>
+          </div>
+        </div>
+
+        <!-- Interactive Enquiry Form -->
+        <div class="artisan-card" style="padding: 30px;">
+          <h3 class="font-serif" style="font-size: 24px; color: var(--earth); margin-bottom: 10px;">Send Direct WhatsApp Enquiry</h3>
+          <p style="font-size: 12px; color: rgba(36,33,31,0.7); margin-bottom: 20px;">
+            Filling this form prepares and opens your message directly on WhatsApp with all details formatted for our artisan team.
+          </p>
+
+          <form onsubmit="handleFormEnquiry(event)">
+            <div style="margin-bottom: 14px;">
+              <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 4px;">Your Name *</label>
+              <input type="text" id="enqName" required class="search-input" placeholder="e.g. Priyadarshini">
+            </div>
+
+            <div style="margin-bottom: 14px;">
+              <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 4px;">Your Contact Phone *</label>
+              <input type="tel" id="enqPhone" required class="search-input" placeholder="e.g. 9876543210">
+            </div>
+
+            <div style="margin-bottom: 14px;">
+              <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 4px;">Category of Interest</label>
+              <select id="enqCat" class="search-input">
+                <option value="General Catalogue Enquiry">General Catalogue Enquiry</option>
+                <option value="Tribal Necklaces & Jewellery">Tribal Necklaces & Jewellery</option>
+                <option value="Brass & Metal Handicrafts">Brass & Metal Handicrafts</option>
+                <option value="Framed Tribal Art & Wall Decor">Framed Tribal Art & Wall Décor</option>
+                <option value="Gifting & Souvenir Pieces">Gifting & Souvenir Pieces</option>
+                <option value="Exhibition Stall & Bulk Orders">Exhibition Stall & Bulk Orders</option>
+              </select>
+            </div>
+
+            <div style="margin-bottom: 18px;">
+              <label style="display: block; font-size: 12px; font-weight: 600; margin-bottom: 4px;">Message / Custom Enquiry</label>
+              <textarea id="enqMsg" rows="3" class="search-input" placeholder="Tell us about the pieces you are interested in..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-whatsapp" style="width: 100%;">
+              Open Formatted Enquiry in WhatsApp →
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="grid-4" style="gap: 30px; margin-bottom: 40px;">
+        <div>
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+            <img src="public/images/ipsita_logo.png" alt="Ipsita Producer Group Logo" style="width: 40px; height: 40px; border-radius: 50%; background: #fff; border: 1px solid var(--gold); padding: 2px;" onerror="this.src='images/ipsita_logo.png'">
+            <div>
+              <div class="font-serif" style="font-size: 18px; font-weight: 700;">Ipsita Producer Group</div>
+              <div style="font-size: 11px; color: var(--gold); font-style: italic;">Our Tradition. Our Pride.</div>
+            </div>
+          </div>
+          <p style="font-size: 12px; opacity: 0.75; line-height: 1.6;">
+            Empowering rural artisans in Dhenkanal, Odisha through authentic tribal jewellery, brass casting, and framed folk art under the Subhadra Shakti initiative.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="font-serif" style="color: var(--gold); font-size: 16px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.1em;">Collections</h4>
+          <ul style="list-style: none; font-size: 12px; opacity: 0.8; line-height: 2;">
+            <li><a href="#collections" onclick="filterCategory('tribal-jewellery')">Tribal Necklaces &amp; Jewellery</a></li>
+            <li><a href="#collections" onclick="filterCategory('brass-metal-handicrafts')">Brass &amp; Metal Handicrafts</a></li>
+            <li><a href="#collections" onclick="filterCategory('framed-tribal-art')">Framed Tribal Art &amp; Wall Décor</a></li>
+            <li><a href="#collections" onclick="filterCategory('gifting-souvenirs')">Gifting &amp; Souvenir Pieces</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-serif" style="color: var(--gold); font-size: 16px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.1em;">Heritage Navigation</h4>
+          <ul style="list-style: none; font-size: 12px; opacity: 0.8; line-height: 2;">
+            <li><a href="#home">Home Catalogue</a></li>
+            <li><a href="#collections">All Handcrafted Pieces</a></li>
+            <li><a href="#story">Our Story &amp; Dhenkanal Roots</a></li>
+            <li><a href="#stall">AKAMA Trade Fair Stall</a></li>
+            <li><a href="#contact">Direct Artisan Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-serif" style="color: var(--gold); font-size: 16px; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.1em;">Verified Address</h4>
+          <div style="font-size: 12px; opacity: 0.8; line-height: 1.6;">
+            <p>Vill-Adipura, Po-Marthapur, Ps-Bhuban</p>
+            <p>Via-Kamakhyanagar, Dist-Dhenkanal</p>
+            <p>State-Odisha, PIN 759023</p>
+            <p style="margin-top: 8px; color: var(--gold); font-weight: 600;">Phone: +91 77518 90401</p>
+            <p style="margin-top: 4px; font-family: monospace;">UDYAM-OD-09-0050793</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="border-top: 1px solid rgba(182, 151, 96, 0.25); padding-top: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; font-size: 12px; opacity: 0.7;">
+        <div>&copy; 2026 Ipsita Producer Group. All rights reserved.</div>
+        <div>Subhadra Shakti Initiative • Government of Odisha</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Quick Button -->
+  <a href="https://wa.me/917751890401?text=Namaste%20Ipsita%20Producer%20Group,%20I%20would%20like%20to%20enquire%20about%20your%20handicrafts." target="_blank" rel="noopener noreferrer" class="floating-wa" title="Chat on WhatsApp (+91 77518 90401)">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.173.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/>
+    </svg>
+  </a>
+
+  <!-- Product Details Modal -->
+  <div class="modal-overlay" id="productModal" onclick="closeModal(event)">
+    <div class="modal-box" onclick="event.stopPropagation()">
+      <button class="modal-close" onclick="closeModalDirect()">&times;</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <!-- JavaScript Catalogue Data & Interactive Logic -->
+  <script>
+    const PRODUCTS = [
+      {
+        id: 'ipg-jwl-001',
+        name: 'Traditional Brass Crescent Tribal Necklace',
+        category: 'tribal-jewellery',
+        categoryName: 'Tribal Necklaces & Jewellery',
+        shortDescription: 'Handcrafted tribal statement necklace featuring an engraved brass crescent pendant and metallic beading.',
+        fullDescription: 'Inspired by traditional tribal adornments of Dhenkanal, Odisha, this striking necklace features a curved brass crescent pendant hung from a tiered metallic and beaded string. Hand-assembled by women artisans of Ipsita Producer Group, each piece embodies authentic tribal elegance.',
+        materials: ['Solid Brass Crescent', 'Alloy Beads', 'Reinforced Artisan Cord'],
+        image: 'public/images/detail_crescent_tribal_necklace.png',
+        origin: 'Adipura, Dhenkanal, Odisha',
+        priceNotice: 'Exhibition & Direct Artisan Pricing on enquiry',
+        care: 'Wipe gently with soft dry cloth. Keep in dry cotton pouch.'
+      },
+      {
+        id: 'ipg-jwl-002',
+        name: 'Cylindrical Brass Capsule Pendant Necklace',
+        category: 'tribal-jewellery',
+        categoryName: 'Tribal Necklaces & Jewellery',
+        shortDescription: 'Artisanal necklace featuring a cylindrical brass amulet pendant on a densely beaded tribal chain.',
+        fullDescription: 'Amulet and capsule-style pendants symbolize protection and tribal identity across Odisha’s hill communities. Combines a turned cylindrical brass barrel with alternating metal beads.',
+        materials: ['Turned Brass Capsule', 'Antique Gold Tone Beads', 'Durable Weft Cord'],
+        image: 'public/images/detail_cylindrical_brass_necklace.png',
+        origin: 'Adipura, Dhenkanal, Odisha',
+        priceNotice: 'Direct Artisan Pricing on enquiry',
+        care: 'Keep in cotton pouch; avoid moisture and spray perfumes.'
+      },
+      {
+        id: 'ipg-jwl-003',
+        name: 'Beaded Black Tassel Tribal Necklace',
+        category: 'tribal-jewellery',
+        categoryName: 'Tribal Necklaces & Jewellery',
+        shortDescription: 'Classic multi-bead tribal necklace accented with handmade thread tassel and textured metallic beads.',
+        fullDescription: 'A versatile statement piece blending dark earthy tones with bright metallic highlights. Anchored by a soft handcrafted thread tassel.',
+        materials: ['Clay & Metal Craft Beads', 'Handmade Thread Tassel'],
+        image: 'public/images/detail_beaded_tribal_necklace.png',
+        origin: 'Adipura, Dhenkanal, Odisha',
+        priceNotice: 'Exhibition catalogue piece - Enquire for availability',
+        care: 'Comb tassel lightly if tangled; keep dry.'
+      },
+      {
+        id: 'ipg-jwl-004',
+        name: 'Tribal Beadwork Hanging Line Suite',
+        category: 'tribal-jewellery',
+        categoryName: 'Tribal Necklaces & Jewellery',
+        shortDescription: 'Full hanging line display suite of handcrafted tribal necklaces as showcased at our exhibition stall.',
+        fullDescription: 'As displayed on vertical hanging lines behind our stall at eye level. Features diverse traditional beadwork and pendant arrangements.',
+        materials: ['Brass', 'Bell Metal Spacers', 'Earthen Tone Beads'],
+        image: 'public/images/crop_tribal_necklaces.png',
+        origin: 'Adipura, Dhenkanal, Odisha',
+        priceNotice: 'Collection pieces - Individual & bulk enquiry available',
+        care: 'Store flat or hanging in dry environment.'
+      },
+      {
+        id: 'ipg-brs-001',
+        name: 'Handcrafted Brass Surahi & Kalash Decanter',
+        category: 'brass-metal-handicrafts',
+        categoryName: 'Brass & Metal Handicrafts',
+        shortDescription: 'Masterfully cast traditional brass decorative surahi with flared spout, engraved neck, and domed stopper.',
+        fullDescription: 'An exceptional centerpiece of traditional Odisha metal casting. Features a slender flared neck, ornate ringed bands, and a sculptural finial stopper with antique golden lustre.',
+        materials: ['Solid Brass (Peetal)', 'Hand-tooled Engravings', 'Removable Stopper'],
+        image: 'public/images/detail_brass_surahi_kalash.png',
+        origin: 'Dhenkanal, Odisha',
+        priceNotice: 'Artisan direct pricing - Enquire for current batch piece',
+        care: 'Clean with dry cotton cloth. Restore shine with mild brass polish.'
+      },
+      {
+        id: 'ipg-brs-002',
+        name: 'Brass Tribal Deity & Dancer Figurine Pair',
+        category: 'brass-metal-handicrafts',
+        categoryName: 'Brass & Metal Handicrafts',
+        shortDescription: 'Sculptural brass figurines depicting traditional folk deities and celebration figures with ceremonial headgear.',
+        fullDescription: 'Iconic brass figurines celebrating the rhythm, spirituality, and festive expressions of Odisha tribal folk. Features ornate crown ornamentation and hand-moulded contours.',
+        materials: ['Cast Brass', 'Antique Patina Finish'],
+        image: 'public/images/detail_brass_figurine_pair.png',
+        origin: 'Dhenkanal, Odisha',
+        priceNotice: 'Exhibition display piece - Price on enquiry',
+        care: 'Dust with soft bristle brush or dry microfibre cloth.'
+      },
+      {
+        id: 'ipg-brs-003',
+        name: 'Traditional Brass Kundi Decorative Box',
+        category: 'brass-metal-handicrafts',
+        categoryName: 'Brass & Metal Handicrafts',
+        shortDescription: 'Hand-hammered brass storage vessel with a domed lid and handcrafted latch, inspired by temple containers.',
+        fullDescription: 'Used traditionally across Odisha households for sacred offerings and precious trinkets. Features ribbed body contours and a fitted domed lid.',
+        materials: ['Pure Brass', 'Hand-hammered Joinery'],
+        image: 'public/images/detail_brass_kundi_container.png',
+        origin: 'Dhenkanal, Odisha',
+        priceNotice: 'Handmade item - Enquire for exhibition availability',
+        care: 'Avoid prolonged moisture inside box.'
+      },
+      {
+        id: 'ipg-art-001',
+        name: 'Handcrafted Framed Tribal Folk Wall Clock',
+        category: 'framed-tribal-art',
+        categoryName: 'Framed Tribal Art & Wall Décor',
+        shortDescription: 'Functional wall clock set inside a rich artisan frame embellished with traditional tribal folk motifs.',
+        fullDescription: 'Combining functional timekeeping with authentic cultural art. Incorporates hand-painted tribal border motifs surrounding an easy-to-read dial under protective glass.',
+        materials: ['Wood Moulding Frame', 'Protective Glass Face', 'Quartz Mechanism'],
+        image: 'public/images/detail_framed_tribal_clock.png',
+        origin: 'Dhenkanal, Odisha',
+        priceNotice: 'Exhibition catalogue item - Enquire for pricing & orders',
+        care: 'Runs on single AA battery. Clean glass with soft dry cloth.'
+      },
+      {
+        id: 'ipg-art-002',
+        name: 'Framed Tribal Folk Art Wall Panels',
+        category: 'framed-tribal-art',
+        categoryName: 'Framed Tribal Art & Wall Décor',
+        shortDescription: 'Curated collection of framed folk and tribal artworks depicting rural life, sacred dance, and wildlife.',
+        fullDescription: 'Capturing the rhythm of tribal life, folklore, nature, and sacred rituals of Odisha. Mounted under clear glass with sleek dark borders.',
+        materials: ['Folk Artwork on Heavy Board', 'Wood Moulding Frame', 'Clear Glass Front'],
+        image: 'public/images/detail_framed_folk_panels.png',
+        origin: 'Dhenkanal, Odisha',
+        priceNotice: 'Exhibition framed art - Enquire for size-wise pricing',
+        care: 'Hang away from torrential direct sunlight. Wipe glass with dry cloth.'
+      },
+      {
+        id: 'ipg-gft-001',
+        name: 'Tribal Metal Charm & Souvenir Keepsakes',
+        category: 'gifting-souvenirs',
+        categoryName: 'Gifting & Souvenir Pieces',
+        shortDescription: 'Compact handcrafted metal pendants, charms, and keepsake ornaments ideal for personal gifts and travel mementos.',
+        fullDescription: 'Crafted to provide accessible, authentic tokens of Odisha’s craft culture. Pocket-friendly keepsakes for students, festival visitors, and travel collectors.',
+        materials: ['Cast Alloy Metal', 'Brass Charms', 'Braided Craft Cord'],
+        image: 'public/images/detail_tribal_souvenir_pendants.png',
+        origin: 'Dhenkanal, Odisha',
+        priceNotice: 'Pocket-friendly artisan souvenir - Enquire for event rates',
+        care: 'Keep in velvet bag when travelling.'
+      },
+      {
+        id: 'ipg-gft-002',
+        name: 'Miniature Framed Folk Art Keepsake',
+        category: 'gifting-souvenirs',
+        categoryName: 'Gifting & Souvenir Pieces',
+        shortDescription: 'Charming mini-framed folk painting of sacred tribal icons, ideal for desks and tabletop display.',
+        fullDescription: 'A delightful miniature artwork framed with tabletop stand and glass face. Brings a spark of Odisha’s rich folk expression to any work desk or shelf.',
+        materials: ['Mini Wood Frame', 'Hand-rendered Folk Art', 'Glass Face'],
+        image: 'public/images/detail_mini_framed_keepsakes.png',
+        origin: 'Dhenkanal, Odisha',
+        priceNotice: 'Affordable handcrafted gift - Enquire for availability',
+        care: 'Wipe glass with clean lint-free cloth.'
+      }
+    ];
+
+    let currentCategory = 'all';
+    let searchQuery = '';
+
+    function renderProducts() {
+      const grid = document.getElementById('productsGrid');
+      const filtered = PRODUCTS.filter(p => {
+        const matchesCat = currentCategory === 'all' || p.category === currentCategory;
+        const q = searchQuery.toLowerCase();
+        const matchesSearch = !q || p.name.toLowerCase().includes(q) || p.shortDescription.toLowerCase().includes(q) || p.materials.some(m => m.toLowerCase().includes(q));
+        return matchesCat && matchesSearch;
+      });
+
+      if (filtered.length === 0) {
+        grid.innerHTML = `
+          <div style="grid-column: 1 / -1; text-align: center; padding: 40px; background: #fff; border-radius: 16px; border: 1px solid var(--beige);">
+            <h3 class="font-serif" style="font-size: 22px;">No matching pieces found</h3>
+            <p style="font-size: 13px; color: rgba(36,33,31,0.7); margin-top: 6px;">Try clearing your search query or selecting "All Pieces".</p>
+          </div>
+        `;
+        return;
+      }
+
+      grid.innerHTML = filtered.map(p => `
+        <article class="artisan-card">
+          <div class="card-img-wrap">
+            <img src="${p.image}" alt="${p.name}" onerror="this.src='images/${p.image.replace('public/images/','')}'">
+            <span class="badge badge-light" style="position: absolute; top: 12px; left: 12px;">${p.categoryName}</span>
+            <span style="position: absolute; bottom: 8px; left: 12px; font-size: 11px; color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,0.8);">📍 ${p.origin}</span>
+          </div>
+          <div class="card-content">
+            <div class="card-title font-serif">${p.name}</div>
+            <div class="card-desc">${p.shortDescription}</div>
+            <div style="margin-bottom: 12px;">
+              ${p.materials.map(m => `<span class="mat-chip">${m}</span>`).join('')}
+            </div>
+            <div class="card-price-notice">${p.priceNotice}</div>
+            <div class="card-actions">
+              <button class="btn btn-outline btn-sm" onclick="openModal('${p.id}')">View Details</button>
+              <a href="https://wa.me/917751890401?text=${encodeURIComponent('Namaste Ipsita Producer Group, I would like to enquire about: ' + p.name + ' (Code: ' + p.id + ')')}" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">Enquire</a>
+            </div>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function filterCategory(cat, btn) {
+      currentCategory = cat;
+      if (btn) {
+        document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      }
+      renderProducts();
+      const el = document.getElementById('collections');
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function handleSearch() {
+      searchQuery = document.getElementById('searchInput').value;
+      renderProducts();
+    }
+
+    function openModal(id) {
+      const p = PRODUCTS.find(item => item.id === id);
+      if (!p) return;
+
+      const content = document.getElementById('modalContent');
+      content.innerHTML = `
+        <div style="display: grid; grid-template-columns: 1fr; gap: 20px;">
+          <div style="position: relative; aspect-ratio: 16/9; max-height: 360px; overflow: hidden; background: var(--ivory-200);">
+            <img src="${p.image}" alt="${p.name}" style="width: 100%; height: 100%; object-fit: cover;" onerror="this.src='images/${p.image.replace('public/images/','')}';">
+          </div>
+          <div style="padding: 0 24px 28px 24px;">
+            <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+              <span class="badge badge-gold">${p.categoryName}</span>
+              <span class="badge badge-light">Code: ${p.id}</span>
+            </div>
+            <h2 class="font-serif" style="font-size: 26px; color: var(--earth); margin-bottom: 8px;">${p.name}</h2>
+            <div style="font-size: 14px; font-weight: 600; color: var(--terracotta); margin-bottom: 14px;">${p.priceNotice}</div>
+            <p style="font-size: 14px; color: rgba(36,33,31,0.85); line-height: 1.6; margin-bottom: 16px;">${p.fullDescription}</p>
+
+            <div style="background: var(--ivory); padding: 14px; border-radius: 10px; margin-bottom: 16px; font-size: 13px;">
+              <p><strong>Craft Materials:</strong> ${p.materials.join(', ')}</p>
+              <p style="margin-top: 4px;"><strong>Origin:</strong> ${p.origin}</p>
+              <p style="margin-top: 4px;"><strong>Care:</strong> ${p.care}</p>
+              <p style="margin-top: 4px;"><strong>Initiative:</strong> Subhadra Shakti, Govt. of Odisha</p>
+            </div>
+
+            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+              <a href="https://wa.me/917751890401?text=${encodeURIComponent('Namaste Ipsita Producer Group, I would like to enquire about: ' + p.name + ' (Code: ' + p.id + ')')}" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="flex: 1;">
+                Chat on WhatsApp (+91 77518 90401)
+              </a>
+              <a href="tel:+917751890401" class="btn btn-earth" style="flex: 1;">
+                Call: +91 77518 90401
+              </a>
+            </div>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('productModal').classList.add('active');
+    }
+
+    function closeModal(e) {
+      if (e.target.id === 'productModal') {
+        document.getElementById('productModal').classList.remove('active');
+      }
+    }
+
+    function closeModalDirect() {
+      document.getElementById('productModal').classList.remove('active');
+    }
+
+    function handleFormEnquiry(e) {
+      e.preventDefault();
+      const name = document.getElementById('enqName').value;
+      const phone = document.getElementById('enqPhone').value;
+      const cat = document.getElementById('enqCat').value;
+      const msg = document.getElementById('enqMsg').value;
+
+      const formatted = `*Enquiry for Ipsita Producer Group*\n\n` +
+        `*Name:* ${name}\n` +
+        `*Phone:* ${phone}\n` +
+        `*Interest Area:* ${cat}\n` +
+        (msg ? `*Message:* ${msg}\n` : '') +
+        `\n_Sent via Ipsita Producer Group Online Catalogue_`;
+
+      const url = `https://wa.me/917751890401?text=${encodeURIComponent(formatted)}`;
+      window.open(url, '_blank');
+    }
+
+    renderProducts();
+  </script>
+</body>
+</html>
