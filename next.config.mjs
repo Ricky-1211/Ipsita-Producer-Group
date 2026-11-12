@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   reactStrictMode: true,
-  optimizeFonts: false, // Prevents build-time fetch blocking in sandboxed/offline environments
+  optimizeFonts: false,
   images: {
     unoptimized: true,
   },

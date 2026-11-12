@@ -380,3 +380,4 @@ export function getProductsByCategory(category: string): Product[] {
 export function getFeaturedProducts(): Product[] {
   return PRODUCTS.filter((p) => p.isFeatured);
 }
+

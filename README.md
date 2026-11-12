@@ -189,3 +189,4 @@ The website is engineered to run seamlessly on 100% free hosting platforms witho
 - [x] Automated `sitemap.xml` and `robots.txt` generation.
 - [x] Custom artisan 404 page (`not-found.tsx`).
 - [x] Production build passes with 0 errors across 23 static pages.
+

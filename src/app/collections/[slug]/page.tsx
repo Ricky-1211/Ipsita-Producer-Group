@@ -57,3 +57,4 @@ export default function ProductPage({ params }: Props) {
 
   return <ProductDetailClient product={product} relatedProducts={relatedProducts} />;
 }
+

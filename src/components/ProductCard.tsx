@@ -114,3 +114,4 @@ export default function ProductCard({ product, priorityImage = false }: ProductC
     </article>
   );
 }
+

@@ -65,3 +65,4 @@ export const STALL_STORY = {
     },
   ],
 };
+

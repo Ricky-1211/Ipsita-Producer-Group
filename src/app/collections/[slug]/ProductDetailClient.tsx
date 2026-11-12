@@ -285,3 +285,4 @@ export default function ProductDetailClient({ product, relatedProducts }: Produc
     </div>
   );
 }
+

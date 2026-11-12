@@ -69,3 +69,4 @@ export interface FilterState {
   material: string;
   sortBy: 'featured' | 'name-asc' | 'name-desc';
 }
+
