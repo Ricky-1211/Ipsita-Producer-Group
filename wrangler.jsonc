@@ -1,0 +1,21 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ipsita-producer-group",
+  "compatibility_date": "2026-11-13",
+
+  // This site is a fully static Next.js export (next.config.mjs -> output: 'export').
+  // No server runtime / OpenNext adapter is needed: Cloudflare serves the
+  // generated `out/` folder directly as static assets.
+  "build": {
+    "command": "npm run build"
+  },
+  "assets": {
+    "directory": "./out",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+
+  "observability": {
+    "enabled": true
+  }
+}
